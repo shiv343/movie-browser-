@@ -1,0 +1,17 @@
+.resultsContainer {
+    padding: 2rem;
+  }
+  
+  .moviesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2rem;
+    padding: 1rem 0;
+  }
+  
+  .noResults {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 2rem;
+  }

@@ -1,0 +1,62 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  position: fixed;      /* stick to the top when you scroll */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #121212;
+  z-index: 1000;
+  background: linear-gradient(135deg, rgba(100, 43, 255, 0.8) 0%, rgba(198, 66, 245, 0.8) 100%);
+  backdrop-filter: blur(10px); /* Glass blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1rem 0;
+}
+
+/* inner wrapper to constrain and center content */
+.navbar-inner {
+  max-width: 1200px;     /* limit how wide the content can stretch */
+  margin: 0 auto;        /* center it within the 100% navbar */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.navbar-search input {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  width: 250px;
+  background-color: #1f1f1f;
+  color: white;
+  background-color: rgba(2, 2, 2, 0.2);
+  color: rgb(179, 103, 103);
+  border: 1px solid rgba(5, 4, 4, 0.2);
+}
+
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.navbar-fav button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.navbar-fav button:hover {
+  background-color: #ff4040;
+}
