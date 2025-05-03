@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { searchMovies } from '../services/omdb';
-import SearchResults from '../conponents/SearchResults/SearchResults';
+import SearchResults from '../components/SearchResults';
 
 const SearchPage = () => {
   const [query, setQuery] = useState('');

@@ -1,6 +1,6 @@
 import React from 'react';
-import MovieCard from '../Moviecard/MovieCard';
-import styles from '../SearchResults/SearchResult.css'; // We'll create this CSS next
+import MovieCard from './MovieCard';
+import styles from '../components/SearchResult.css'; // We'll create this CSS next
 
 const SearchResults = ({ movies }) => {
   return (

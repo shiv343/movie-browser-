@@ -1,0 +1,53 @@
+.card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  width: 200px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.poster {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  background: #f0f0f0;
+}
+
+.info {
+  padding: 1rem;
+}
+
+.info h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.detailsLink {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #4361ee;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.detailsLink:hover {
+  background: #3a56d4;
+}
+
+
+
+
+
+
+  

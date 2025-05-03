@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './conponents/Navbar/Navbar';
+import Navbar from './components/Navbar';
 import SearchPage from './pages/SearchPage';
 import MovieDetails from './pages/MovieDetails';
-import Favorites from './pages/MovieDetails'
+import Favorites from './pages/Favorite'
 
 const App = () => {
   return (
